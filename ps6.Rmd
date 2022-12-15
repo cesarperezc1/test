@@ -1,0 +1,14 @@
+---
+title: "Problem Set 6"
+author: "César Pérez"
+date: "2022-12-15"
+output: html_document
+---
+
+**Aufgabe 1**
+```[r]
+str(penguins)
+penguins<- readRDS("penguins.Rds")
+knitr::kable(head(penguins[1:6,]))
+```
+
